@@ -5,5 +5,7 @@
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
-    <style name="Theme.AdminWavesOfFood" parent="Base.Theme.AdminWavesOfFood" />
+    <style name="Theme.AdminWavesOfFood" parent="Base.Theme.AdminWavesOfFood">
+        <item name="android:statusBarColor">@color/textColor</item>
+    </style>
 </resources>
