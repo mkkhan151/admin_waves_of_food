@@ -79,6 +79,7 @@
             android:id="@+id/listOfLocation"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:backgroundTint="@color/white"
             android:paddingVertical="20dp"
             android:fontFamily="@font/lato_regular"
             android:inputType="none"
@@ -169,7 +170,7 @@
         app:layout_constraintTop_toBottomOf="@+id/signUpEmail" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/signUpButton"
+        android:id="@+id/createAccountButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:elevation="10dp"
@@ -186,7 +187,7 @@
         app:layout_constraintTop_toBottomOf="@+id/signUpPassword" />
 
     <TextView
-        android:id="@+id/alreadyHaveButton"
+        android:id="@+id/alreadyHaveAccountButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -194,8 +195,8 @@
         android:text="Already Have An Account?"
         android:textColor="@color/textColor"
         android:textSize="12sp"
-        app:layout_constraintEnd_toEndOf="@+id/signUpButton"
-        app:layout_constraintStart_toStartOf="@+id/signUpButton"
-        app:layout_constraintTop_toBottomOf="@+id/signUpButton" />
+        app:layout_constraintEnd_toEndOf="@+id/createAccountButton"
+        app:layout_constraintStart_toStartOf="@+id/createAccountButton"
+        app:layout_constraintTop_toBottomOf="@+id/createAccountButton" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

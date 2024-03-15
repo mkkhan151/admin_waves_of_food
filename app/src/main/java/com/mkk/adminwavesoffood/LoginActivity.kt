@@ -17,10 +17,9 @@ class LoginActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        binding.dontHaveButton.setOnClickListener {
+        binding.dontHaveAccountButton.setOnClickListener {
             val intent = Intent(this, SignUpActivity::class.java)
             startActivity(intent)
-
         }
     }
 }

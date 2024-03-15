@@ -170,7 +170,7 @@
         app:layout_constraintTop_toBottomOf="@+id/facebookLoginButton" />
 
     <TextView
-        android:id="@+id/dontHaveButton"
+        android:id="@+id/dontHaveAccountButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
