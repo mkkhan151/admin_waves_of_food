@@ -185,7 +185,7 @@
     </androidx.cardview.widget.CardView>
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/appCompatButton"
+        android:id="@+id/addMenu"
         android:layout_width="150dp"
         android:layout_height="100dp"
         android:layout_marginTop="60dp"
@@ -200,13 +200,13 @@
         android:textAllCaps="false"
         android:textColor="@color/textColor"
         android:textSize="14sp"
-        app:layout_constraintEnd_toStartOf="@+id/appCompatButton2"
+        app:layout_constraintEnd_toStartOf="@+id/allItemMenu"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cardView" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/appCompatButton2"
+        android:id="@+id/allItemMenu"
         android:layout_width="150dp"
         android:layout_height="100dp"
         android:layout_marginTop="60dp"
@@ -223,7 +223,7 @@
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/appCompatButton"
+        app:layout_constraintStart_toEndOf="@+id/addMenu"
         app:layout_constraintTop_toBottomOf="@+id/cardView" />
 
     <androidx.appcompat.widget.AppCompatButton
@@ -242,8 +242,8 @@
         android:textAllCaps="false"
         android:textColor="@color/textColor"
         android:textSize="14sp"
-        app:layout_constraintStart_toStartOf="@+id/appCompatButton"
-        app:layout_constraintTop_toBottomOf="@+id/appCompatButton" />
+        app:layout_constraintStart_toStartOf="@+id/addMenu"
+        app:layout_constraintTop_toBottomOf="@+id/addMenu" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/appCompatButton4"
@@ -261,8 +261,8 @@
         android:textAllCaps="false"
         android:textColor="@color/textColor"
         android:textSize="14sp"
-        app:layout_constraintEnd_toEndOf="@+id/appCompatButton2"
-        app:layout_constraintTop_toBottomOf="@+id/appCompatButton2" />
+        app:layout_constraintEnd_toEndOf="@+id/allItemMenu"
+        app:layout_constraintTop_toBottomOf="@+id/allItemMenu" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:layout_width="150dp"
