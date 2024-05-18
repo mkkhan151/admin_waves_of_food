@@ -39,7 +39,7 @@
                     android:layout_width="64dp"
                     android:layout_height="64dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/add_image" />
+                    android:src="@drawable/menu1" />
             </androidx.cardview.widget.CardView>
 
             <TextView
