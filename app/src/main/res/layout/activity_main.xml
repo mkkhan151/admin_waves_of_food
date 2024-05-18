@@ -227,7 +227,7 @@
         app:layout_constraintTop_toBottomOf="@+id/cardView" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/appCompatButton3"
+        android:id="@+id/adminProfile"
         android:layout_width="150dp"
         android:layout_height="100dp"
         android:layout_marginTop="40dp"
@@ -280,8 +280,8 @@
         android:textAllCaps="false"
         android:textColor="#FF7A00"
         android:textSize="14sp"
-        app:layout_constraintStart_toStartOf="@+id/appCompatButton3"
-        app:layout_constraintTop_toBottomOf="@+id/appCompatButton3" />
+        app:layout_constraintStart_toStartOf="@+id/adminProfile"
+        app:layout_constraintTop_toBottomOf="@+id/adminProfile" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:layout_width="150dp"
