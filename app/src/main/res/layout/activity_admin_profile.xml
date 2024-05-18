@@ -53,6 +53,7 @@
         android:layout_marginEnd="16dp"
         android:fontFamily="@font/yeonsung_regular"
         android:gravity="center"
+        android:clickable="true"
         android:text="Click Here To Edit"
         android:textColor="@color/textColor"
         android:textSize="16sp"
@@ -262,6 +263,7 @@
         android:text="Design by \n NeatRoots"
         android:textColor="@color/textColor"
         android:textSize="16dp"
+        android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
